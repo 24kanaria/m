@@ -32,5 +32,5 @@ var calcBmi = function () {
   output.innerHTML = bmi;
 }
 
-// 計測開始ボタンが押されたときの処理を登録（イベントリスナー）
+// 計測開始ボタンが押されたときの処理を登録（イベントリスナー
 button.addEventListener('click', calcBmi);

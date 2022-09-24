@@ -1,4 +1,4 @@
-# mvar height = document.getElementById('height-input'); 
+var height = document.getElementById('height-input'); 
 var weight = document.getElementById('weight-input'); 
 var atk = document.getElementById('atk-input');
 var cc = document.getElementById('cc-input');

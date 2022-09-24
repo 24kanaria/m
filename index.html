@@ -1,1 +1,58 @@
-# m
+# m<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>特別ルールダメージ計算機</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">  </head>
+  <body>
+    <header>
+      <nav class="navbar navbar-dark bg-dark">
+        <div class="container">
+          <a href="#" class="navbar-brand">特別ルールダメージ計算機</a>
+        </div>
+      </nav>
+    </header>
+    <main>
+      <div class="container">
+          <div class="row">
+            <section class="col-sm-6 col-md-4 pt-4">
+              <div class="form-group">
+                <label for="height">ぷよ数</label>
+                <input id="height-input" type="text" class="form-control" value="">
+              </div>
+              <div class="form-group">
+                <label for="weight">連鎖数(4連鎖以上)</label>
+                <input id="weight-input" type="text" class="form-control" value="">
+              </div>
+              <div class="form-group">
+                <label for="atk">分離数</label>
+                <input id="atk-input" type="text" class="form-control" value="">
+              </div>
+              <div class="form-group">
+                <label for="cc">童話(倍)</label>
+                <input id="cc-input" type="text" class="form-control" value="">
+              </div>
+              <div class="form-group">
+                <label for="pp">連鎖係数(倍)</label>
+                <input id="pp-input" type="text" class="form-control" value="">
+              </div>
+
+
+              <input id="button-submit" type="submit" class="btn btn-primary btn-large" value="実行">
+            </section>
+            <section class="col-sm-6 col-md-4 pt-4">
+              <div class="card">
+                <div class="card-header">
+                  倍率
+                </div>
+                <div class="card-body">
+                  <div id="bmi-output" class="display-4"></div>
+                </div>
+              </div>
+            </section>
+        </div>
+      </div>
+    </main>
+    <script src="ma-ru.js"></script>
+  </body>
+</html>
